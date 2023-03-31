@@ -1,0 +1,28 @@
+.product{
+    height: 600px;
+}
+.single-product{
+    height: 500px;
+    padding: 5px;
+    border: 1px solid #95A0A7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.single-product img{ 
+    width: 286px;
+    border-radius: 5px;
+}
+.product-details{
+    padding: 10px;
+}
+.product-name, .product-price{
+    font-weight: 500;
+}
+.add-to-cart-btn{
+    background-color: #FFE0B3;
+    width: 100%;
+    border: 1px solid #95A0A7;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

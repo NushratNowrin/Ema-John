@@ -1,0 +1,16 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    
+}
+.side-bar{
+    background-color: #FFE0B3;
+    height: 100vh;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 60px 50px;
+}
