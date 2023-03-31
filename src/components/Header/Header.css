@@ -1,0 +1,28 @@
+.header{
+    background-color: #1C2B35;
+    height: 80px;
+    color: white;
+    padding-left: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lato';
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    padding-right: 97px;
+}
+.menu ul li{
+    padding: 16px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+}
+.menu ul li a:hover{
+    color: #FF9900;
+}   
