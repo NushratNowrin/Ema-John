@@ -2,11 +2,7 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
-.side-bar {
-  background-color: #ffe0b3;
-  height: 100vh;
-  padding: 20px;
-}
+
 .products-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
