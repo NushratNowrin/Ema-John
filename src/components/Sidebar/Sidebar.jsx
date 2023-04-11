@@ -1,10 +1,13 @@
 import React from 'react';
 import './Sidebar.css'
 
-const Sidebar = ({carts, price,}) => {
+const Sidebar = ({carts}) => {
     let shippingCharge = 0;
+    let price = 0;
     for(const product of carts){
         shippingCharge = shippingCharge + product.shipping;
+        price = price + product.price;
+        // console.log(product);
     }
     let tax = price*0.05; {/* suppose tax is 5% of price */}
     tax = parseInt(tax);
