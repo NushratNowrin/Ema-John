@@ -61,13 +61,7 @@ const Shop = () => {
 				))}
 			</div>
 			<div className='side-bar'>
-				<Sidebar carts={carts} price={price}></Sidebar>
-				{/* <h2>Order Summary</h2>
-                <p>Selected Items: {carts.length}</p>
-                <p>Total Price: ${price}</p>
-                <p>Total Shipping Charge: ${shippingCharge}</p>
-                <p>Tax: $114</p>
-                <h3>Grand Total: ${price + shippingCharge + 114}</h3> */}
+				<Sidebar carts={carts}></Sidebar>
 			</div>
 		</div>
 	);
